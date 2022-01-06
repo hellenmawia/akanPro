@@ -2,14 +2,35 @@
 <html>
     <head>
         <title>Akhan Name Program</title>
+        <link rel="stylesheet" href="akhan.css">
     </head> 
     <body>
         <div>
             <h1>Akhan Name</h1>
-            <p>This program takes a users birthday and calculates the day of the weel they were born and then depending on their gender outputs their Akan Name. </p>
+            <p>This program takes a users birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. </p>
         </div>
-        <div>
-            <form name='AkanName'></form>
+        <div class='forms'>
+            <form name="akanName">
+                <div class="form-group">
+                  <label for="year">Enter Your Year of Birth</label>
+                  <input name="year" type="text" class="form-control" id="birthYear" placeholder="Enter year of birth">
+                </div>
+                <div class="form-group">
+                    <label for="month">Enter Birth Month</label>
+                    <input name="month" type="text" class="form-control" id="birthMonth" placeholder="Enter Birth month">
+                </div>
+                <div class="form-group">
+                    <label for="day">Date of birth</label>
+                    <input name="day" type="text" class="form-control" id="birthDay" placeholder="Enter birth date">
+                </div>
+                <select class="form-control" name="Gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                 </select><br>
+              </form>
+              <input class="btn btn-primary" type="button" value="submit" onclick="validateForm()">
+              <input class="btn btn-primary" type="button" value="Clear Selection" onclick="reset()">
+        </div>
 
     </body>  
 </html>
