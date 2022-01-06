@@ -36,11 +36,13 @@ var getUserInput = function() {
     if(intMonth <=0 || intMonth>12){
         alert("Enter a valid month")
     }
+  
 
-    let day = new Date(intYear+"-"+intMonth+"-"+inputDay).getDay()
+   
+    const day = new Date(intYear+"-"+intMonth+"-"+inputDay).getDay()
 
 
-    if(inputGender ==="Male"){
+    if (inputGender ==="Male"){
         akanName = namesOfMale[day]
         alert("Your Akan name is " + akanName + ". Because you are a male born on "+ daysOfTheWeek[day])
     }else if (inputGender === "Female"){

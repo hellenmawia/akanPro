@@ -1,4 +1,15 @@
 body {
   background-color: azure;
-  color: rgba(86, 126, 128, 0.513);
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+* {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 1px;
+  padding: 3px;
 }
