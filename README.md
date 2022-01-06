@@ -1,4 +1,4 @@
-# akanPro - Akhan Name Project
+# Akan Name Project
 A Program that let's you find out your akhan Name based on your input
 
 ##Author 
