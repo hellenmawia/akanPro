@@ -9,7 +9,7 @@ This application allows one to find out their akan name from the Ghanian Culture
 it takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name
 
 ####Live Demo
-To access and view the live demo use https://hellenmawia.github.io/akanProMyPortfolio/index.html
+To access and view the live demo use https://hellenmawia.github.io/akanPro/index.html
 
 #####Technologies Used
 HTML
